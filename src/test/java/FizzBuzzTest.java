@@ -15,7 +15,7 @@ public class FizzBuzzTest {
     }
     
     @Test
-    public void testInvalidInput() {
+    public void testZeroAndNonNegativeLimit() {
         FizzBuzz fizzBuzz = new FizzBuzz();
         List<String> result = fizzBuzz.play(0);
     assertEquals(Arrays.asList("Invalid input"), result);
